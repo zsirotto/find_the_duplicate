@@ -22,4 +22,4 @@ Example input:
 96
 ```
 
-<details>
+</details>
