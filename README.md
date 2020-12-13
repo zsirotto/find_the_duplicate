@@ -23,3 +23,7 @@ Example input:
 ```
 
 </details>
+
+## Solution
+
+You can find the solution on the [solution](https://github.com/zsirotto/find_the_duplicate/blob/solution) branch on [find_duplicate.py#L27-L39](https://github.com/zsirotto/find_the_duplicate/blob/solution/find_duplicate.py#L27-L39).
