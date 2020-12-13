@@ -24,12 +24,19 @@ def check_answer(assumed_answer, correct_answer):
     return assumed_answer == correct_answer
 
 
-# TODO: find the duplicate value in l
+# find the duplicate value in l
 def find_duplicate(l):
-    # find the answer
-    answer = 0
-    # return the answer
-    return answer
+    # initilize a frequency array to count the elements in l
+    frequency_array = [0] * len(l)
+    # iterate over each element in l
+    for element in l:
+        # increase the frequency count of each element
+        frequency_array[element] += 1
+        # if an element's frequency == 2, we found the duplicate
+        if frequency_array[element] == 2:
+            return element
+    # there is no duplicate
+    return None
 
 
 if __name__ == '__main__':
