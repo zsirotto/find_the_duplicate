@@ -23,9 +23,8 @@ def check_answer(assumed_answer, correct_answer):
     # return true or false if answer is correct
     return assumed_answer == correct_answer
 
+
 # TODO: find the duplicate value in l
-
-
 def find_duplicate(l):
     # find the answer
     answer = 0
