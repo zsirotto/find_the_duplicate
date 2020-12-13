@@ -29,19 +29,17 @@ def find_duplicate(l):
     d = {}
     
     for i in l:
-        answer = 0
+        
         if i in d:
             d[i] += 1
+            
         else:
             d[i] = 1
 
-    if d[i] == 2:
-        answer = i
-        
-    
-    
+        if d[i] == 2:
+                return i
     # return the answer
-    return answer
+    #return answer
 
 
 if __name__ == '__main__':
